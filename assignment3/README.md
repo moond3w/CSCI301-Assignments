@@ -5,7 +5,6 @@
 <b>Packages Needed:</b> PubNub (https://www.pubnub.com/)
 <br><br>
 <b>Program Description:</b>
-<br>
 <p>
   This assignment is a simple Blockchain System simulating proof-of-work between 
   Alice and Bob. Alice and Bob will compete to add a new block to the system. To simulate 
@@ -13,12 +12,12 @@
   <b>csci301_a3_bob.py</b>. These two programs will simulate Alice and Bob respectively. These two 
   programs are given the same set of transactions as well as the same genesis block (a_0.json 
   and b_0.json) to work with.
-</p><br>
+</p>
 <p>The two programs should be run in parallel via the following two commands on <b>separate</b> consoles: </p>
 
-<code>python3 csci301_a3_alice.py</code>
+<code>python3 csci301_a3_alice.py</code><br>
 <code>python3 csci301_a3_bob.py</code>
-<br>
+
 <p>
   The two programs use multi-threading to simultaneously listen for newly generated 
   blocks via PubNub as well as generating their own block until the block is created or a new 
